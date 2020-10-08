@@ -9,10 +9,6 @@ def login():
         Create()
     elif choose == "login":
         logging()
-    elif choose == "secret":
-        print(" Access Granted ")
-        print("you now have acess to ADMIN")
-        exit
     else:
         print("there was a error, make sure you typed everything correctly")
     # create an accounty
